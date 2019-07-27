@@ -1,0 +1,242 @@
+.services{
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    overflow: none;
+}
+
+.services .header_text{
+    position: relative;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header_text h2{
+    color: #61b300;
+    padding: 0;     
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+
+.header_text .plants{
+    position: absolute;
+    left: 100%;
+    margin: 6px 0 0 15px;
+    width: 70px;
+    height: 70px;
+    background-image: url(../../img/plants.png);
+    background-size: cover;
+}
+
+.services .center_menu{
+    margin: 0;
+    padding: 0 0 8px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DEE2E6;
+}
+
+.center_menu .menu{
+    list-style-type: none;
+}
+
+
+.center_menu .menu a{
+    color: #61b300;
+    padding: 8px 20px 10px;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+.down_border{
+    border-bottom: 2px solid #61b300;
+}
+
+.services .menu_tab{
+    margin-top: 20px;
+    display: none;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.services .active{
+    display: flex;
+}
+
+.menu_tab .tab_img{
+    height: 380px;
+    width: 580px;    
+    
+}
+
+
+.menu_tab .tab_text{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    justify-content: center;
+    background-image: url(https://nsulym.github.io/kitchen-demo/ab1a597e6692b74de26ba3dbf05a0303.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 5px 5px 11px 0px #ababab;
+}
+
+.menu_tab .tab_text p{
+    text-align: justify;
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Oswald";
+    
+}
+
+.menu_tab .tab_text .tab_ul{
+    list-style-type: disc;
+    font-size: 13px;
+    font-family: "Raleway";
+    letter-spacing: 1px;
+    line-height:1.6;
+    padding-left: 20px;
+    margin-top: 20px;
+    
+}
+
+
+.heil_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*
+
+.menu_tab .img_heil{
+    background-image: url(../../img/heil.png);
+    background-size: cover;
+}
+
+.menu_tab .img_mein{
+    background-image: url(../../img/mein.png);
+    background-size: cover;
+    
+}
+
+.menu_tab .img_kampf{
+    background-image: url(../../img/kampf.png);
+    background-size: cover;
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .menu_tab .tab_img {
+        max-height: 360px;
+        width: 524px;
+    }
+    .services .center_menu {
+        padding: 0px 0 8px 0;
+        width: 100%%;
+    }
+    .menu_tab .tab_text {
+        height: 270px;
+        width: 350px;
+    }
+    .menu_tab .tab_text p {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    
+    
+}
+@media only screen and (max-width: 905px){
+    .menu_tab .tab_text p{
+        font-size: 13px;
+        line-height:1.6;
+        margin-top: 10px;
+    }
+    .menu_tab .tab_text .tab_ul{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 769px) {
+    
+    .services .center_menu {
+        max-width: 520px;
+    }
+    .services .menu_tab{
+        max-width: 520px;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .menu_tab .tab_img{
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .services .menu_tab .tab_text{
+        width: 100%;
+        height: auto;
+    }
+    
+
+    @media only screen and (max-width: 585px){
+        .services .header_text{
+            margin: 30px 0;
+        }
+        .header_text h2{
+            font-size: 35px;
+        }
+        .header_text .plants{
+        margin: 0px 0 0 5px;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

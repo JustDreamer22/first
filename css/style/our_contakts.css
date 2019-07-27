@@ -1,0 +1,103 @@
+.our_contakts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 110px;
+    background: #0f202a;
+    padding: 0 50px;
+}
+
+.mail_number_post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail_number_post a{
+    color: #ffffff;
+    white-space: nowrap;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Oswald";
+}
+.mail_number_post a:hover{
+    color: #62b300;
+    transition: all 1s;
+}
+
+.con_contacts{
+    display: flex;
+    cursor: pointer;
+    margin: 0 20px;
+    position: relative;
+}
+
+
+.con_contacts::before{
+    content: "";
+    width: 50px;
+    border: 1px solid #ffffff;
+    bottom: -3px;
+    position: absolute;
+    transition: all .3s;
+}
+
+.con_contacts:hover::before{
+    width: 100%;
+    border: 1px solid #62b400;
+}
+
+.logo_contacts{
+    margin: 4px 3px 0 0; 
+    right: 100%;
+    width: 18px;
+    height: 18px;
+}
+
+.con_mail{
+    background-image: url(../../img/mail.png);
+    background-size: cover;
+}
+.con_number{
+    background-image: url(../../img/phone.png);
+    background-size: cover;
+}
+.con_post{
+    background-image: url(../../img/position.png);
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 992px){
+    .our_contakts{
+        justify-content: center;
+        padding: 5px 30px;
+    }
+    .con_contacts{
+        margin: 0 5px;
+    }
+}
+
+
+
+@media only screen and (max-width: 769px){
+    .our_contakts{
+        flex-wrap: wrap;
+    }
+    .our_contakts .info{
+        width: 210px;
+        height: 40px;
+        margin: 5px;
+    }
+    
+}
+
+@media only screen and (max-width: 552px){
+    .our_contakts{
+        flex-direction: column;
+    }
+    .mail_number_post{
+        flex-direction: column;
+    }
+}

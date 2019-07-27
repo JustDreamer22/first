@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Raleway&display=swap');
+@import "style/hover.css";
+@import "style/fixed menu.css";
+@import "style/header.css";
+@import "style/media.css";
+@import "style/advantages.css";
+@import "style/services.css";
+@import "style/we work.css";
+@import "style/slick.css";
+@import "style/slick-theme.css";
+@import "style/slick menu.css";
+@import "style/our_clients.css";
+@import "style/map position.css";
+@import "style/our_contakts.css";
+@import "style/preloader.css";
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding-top: 80px;
+    width: 100%;
+    height: 1600px;
+    
+}
+
+
+.icon{
+    width: 1em;
+}
+

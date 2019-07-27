@@ -1,0 +1,89 @@
+.fixed_menu{
+    display: flex;
+    position: fixed;
+    background: white;
+    margin-top: -80px;
+    height: 80px;
+    z-index: 2;
+    width: 100%;
+    box-shadow: 0 0 9px 0;
+    justify-content: center;
+}
+
+.menu_title{
+    display: flex;
+    width: 80%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_img{
+    width: 100px;
+    height: 64px;
+    background-image: url(../../img/logo.png);
+    background-size: cover;
+}
+
+.menu_title .header-menu{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    background-image: url(../../img/header-mein.png);
+    background-size: cover;
+}
+
+
+.navigation{
+    margin:5px 0 8px;
+    padding: 0;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+
+.navigation .contacts{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+
+
+.contacts a {
+    color: #61b300;
+    font-size: 15px;
+    padding: 0 15px;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    white-space:nowrap;
+}
+
+#button{
+    background: white;
+    padding: 7px 45px;
+    border: 1px solid #61b300;
+    border-radius: 20px;
+    
+}
+button{
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+#button:hover{
+    background: #61b300;
+    color: white;
+
+
+
+
+
+
+
